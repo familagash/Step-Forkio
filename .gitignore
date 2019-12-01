@@ -1,0 +1,6 @@
+.idea/**/*
+node_modeles/**/*
+*.xml
+*.iml
+package-lock.json
+dist/**/*
