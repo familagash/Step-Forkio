@@ -1,0 +1,164 @@
+//------------------
+.forkio-header{
+  background: url("../../dist/img/header-bg-320.png");
+  //background-size: cover;/***/
+}
+//--
+.header{
+  //padding: 0 15px;
+
+  &__nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0 15px;
+    background-color: #27262a;
+    //width: 320px;/**/
+    //height: 103px;/**/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo{
+
+    }
+    &-row{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-button{
+      color: white;
+      background: #8d81ac;
+      padding: 12px 23px;
+      margin: 33px 49px;
+      border-radius: 30px;
+    }
+
+    &-hamburger{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;/**/
+      height: 21px;
+    }
+
+    //&-menu{
+    //
+    //}
+  }
+  /**/
+  /*
+  &-menu{
+
+  }
+  */
+/**/
+  &__logo{
+    &-img{
+      background: url("../../dist/img/header-navbar-logo.png");
+      width: 43px;
+      height: 41px;
+    }
+    &-name{
+      display: none;
+      font-family: 'Lato', sans-serif;
+    }
+  }
+
+  &__hamburger{
+    &-line{
+        width: 26px;
+        border-bottom: 4px solid white;
+    }
+  }
+
+  &__menu{
+    display: none;
+    &-link{
+
+    }
+  }
+
+  &__content{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    color: #8d81ac;
+    padding: 43px 32px 424px 30px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-h{
+      color: white;
+      font-weight: bold;
+      text-transform: none;
+      font-size: 35px;
+    }
+
+    &-text{
+      font-size: 13px;
+      margin: 20px 0;
+      span{
+        display: block;
+        margin-top: 10px;
+      }
+    }
+
+    &-version{
+      font-size: 11px;
+      word-spacing: 2.5px;
+      color: #585f66;
+    }
+    /**/
+    //&-download{
+    //  text-align: center;
+    //  position: absolute;
+    //  bottom: 0;
+    //}
+
+    &-download{
+      font-weight: bold;
+      text-transform: none;
+      border-radius: 30px;
+      background-color: #8d81ac;
+      color: white;
+      padding: 16px 50px;
+      //padding: 16px 64px;
+      font-size: 13px;
+      position: absolute;
+      bottom: -22px;
+    }
+  }
+
+
+}
+
+.button-993{
+  display: none;
+}
+
+
+
+/*? yerine bax*/
+.line-first{
+  width: 20px;
+  align-self: flex-end;
+}
+.line-second{
+
+}
+.line-third{
+
+}
+
+@mixin link-zero{
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+
+//-------------------

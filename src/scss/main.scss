@@ -1,11 +1,18 @@
 @import "reset";
 
-body {
-  min-width: 320px; //
-  max-width: 1200px;//
+.container {
+  min-width: 300px; //
+  max-width: 1200px;//nic 1180
+  padding: 0 10px;
   margin: 0 auto;/**/
 }
 
+@import "header";
+@import "revo";
+@import "whatyouget";
+@import "about";
+@import "pricing";
 
-@import "media/header_media";
+
+@import "media/all-media";
 
