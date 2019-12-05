@@ -51,126 +51,126 @@
   }
 
 //------
-  .item{
+ .item{
 
-    &-first{
+  &-first{
 
-      img{
-        //margin: 0 auto 37px 0;
-        margin: 0 auto 37px auto;
-      }
+    img{
+      //margin: 0 auto 37px 0;
+      margin: 0 auto 37px auto;
+    }
 
-      p{
-        //margin: 0 42px 0 38px;
-        margin: 0 32px 0 28px;
-      }
+    p{
+      //margin: 0 42px 0 38px;
+      margin: 0 32px 0 28px;
+    }
+
+  }
+
+}
+
+
+.item{
+
+  &-second{
+
+    img{
+      margin: 41px auto 33px auto;
+    }
+
+    p{
+      //margin: 0 36px 0 33px;
+      margin: 0 26px 0 23px;
 
     }
 
   }
 
+}
 
-  .item{
 
-    &-second{
+.item{
 
-      img{
-        margin: 41px auto 33px auto;
-      }
+  &-third{
 
-      p{
-        //margin: 0 36px 0 33px;
-        margin: 0 26px 0 23px;
+    img{
+      filter: invert(89%) sepia(22%) saturate(5356%) hue-rotate(337deg) brightness(95%) contrast(109%);
+      margin: 37px auto 26px auto;
 
-      }
+    }
+
+    p{
+      //margin: 0 38px 0 39px;
+      margin: 0 28px 0 29px;
+    }
+
+  }
+
+}
+
+
+.item{
+
+  &-fourth{
+
+    img{
+      margin: 46px auto 37px auto;
+    }
+
+    p{
+      //margin: 0 35px 0 44px;
+      margin: 0 25px 0 34px;
 
     }
 
   }
 
+}
 
-  .item{
 
-    &-third{
+.item{
 
-      img{
-        filter: invert(89%) sepia(22%) saturate(5356%) hue-rotate(337deg) brightness(95%) contrast(109%);
-        margin: 37px auto 26px auto;
+  &-fifth{
 
-      }
+    img{
+      margin: 45px auto 32px auto;
 
-      p{
-        //margin: 0 38px 0 39px;
-        margin: 0 28px 0 29px;
-      }
+    }
+
+    p{
+      //margin: 0 33px 0 37px;
+      margin: 0 23px 0 27px;
 
     }
 
   }
 
+}
 
-  .item{
 
-    &-fourth{
+.item{
 
-      img{
-        margin: 46px auto 37px auto;
-      }
+  &-sixth{
 
-      p{
-        //margin: 0 35px 0 44px;
-        margin: 0 25px 0 34px;
+    img{
+      margin: 46px auto 32px auto;
+    }
 
-      }
-
+    p{
+      //margin: 0 39px 0 48px;
+      margin: 0 39px 0 38px;
     }
 
   }
 
+}
 
-  .item{
-
-    &-fifth{
-
-      img{
-        margin: 45px auto 32px auto;
-
-      }
-
-      p{
-        //margin: 0 33px 0 37px;
-        margin: 0 23px 0 27px;
-
-      }
-
-    }
-
-  }
-
-
-  .item{
-
-    &-sixth{
-
-      img{
-        margin: 46px auto 32px auto;
-      }
-
-      p{
-        //margin: 0 39px 0 48px;
-        margin: 0 39px 0 38px;
-      }
-
-    }
-
-  }
-
-  &-line{
-    border-bottom: 2px solid #645766;
-    margin: 0 10px  ;
-    padding-top: 44px;
-    //width: 280px;
-  }
+&-line{
+  border-bottom: 2px solid #645766;
+  margin: 0 10px  ;
+  padding-top: 44px;
+  //width: 280px;
+}
 }
 
 .about__content-item{
