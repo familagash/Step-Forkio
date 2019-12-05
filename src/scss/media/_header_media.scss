@@ -79,6 +79,8 @@
     }
 
     &__menu {
+      padding-bottom: 0;
+      background: inherit;
       @include link-zero;
       color: #8d81ac;
       display: flex;
@@ -88,6 +90,7 @@
       justify-content: center;
 
       &-link {
+        @include ham-zero;
         text-align: center;
         font-size: 14px;
         width: calc(100% / 4 - 25px);
@@ -243,6 +246,7 @@
       //justify-content: center;
 
       &-link {
+        @include ham-zero;
         text-align: center;
         width: calc(100% / 4 - 35px);
       }
@@ -396,6 +400,9 @@
     }
 
     &__menu {
+      padding-bottom: 0;
+      background: inherit;
+
       @include link-zero;
       color: #8d81ac;
       display: flex;
@@ -405,6 +412,7 @@
       justify-content: center;
 
       &-link {
+        @include ham-zero;
         text-align: center;
         width: calc(100% / 5 - 5px);
       }
@@ -560,6 +568,9 @@
     }
 
     &__menu {
+      padding-bottom: 0;
+      background: inherit;
+
       @include link-zero;
       color: #8d81ac;
       display: flex;
@@ -569,6 +580,7 @@
       justify-content: center;
 
       &-link {
+        @include ham-zero;
         text-align: center;
         width: calc(100% / 5 - 5px);
       }

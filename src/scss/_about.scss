@@ -8,6 +8,7 @@
 
     background: url("../../dist/img/about-768.png");
     background-position: center top;/**/
+    background-size: cover;
     color: white;
     text-align: center;
 
@@ -174,13 +175,13 @@
 }
 }
 
-.about__content-item{
-  //width: 245px!important;
-  //margin: 0 auto!important;
-}
+//.about__content-item{
+//  //width: 245px!important;
+//  //margin: 0 auto!important;
+//}
 
-
-@mixin pad-mar-zero{
-  padding: 0;
-  margin: 0;
-}
+//
+//@mixin pad-mar-zero{
+//  padding: 0;
+//  margin: 0;
+//}
