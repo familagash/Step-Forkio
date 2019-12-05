@@ -2,12 +2,17 @@
 
 .container {
   min-width: 300px;
-  min-height: 1180px;
+  max-height: 1200px;
   padding: 0 10px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 
+@mixin font-family {
+  font-family: AdobeInvisFont, Montserrat-Regular, Courier;
+  text-align: center;
+}
 
 
 @import "header";
