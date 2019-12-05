@@ -1,11 +1,12 @@
 //------------------
 .forkio-header{
-  background: url("../../dist/img/header-bg-320.png");
+  //background: url("../../dist/img/header-bg-320.png");
   //background-size: cover;/***/
 }
 //--
 .header{
   //padding: 0 15px;
+  background: url("../../dist/img/header-bg-320.png");
 
   &__nav{
     font-family: 'Montserrat', sans-serif;

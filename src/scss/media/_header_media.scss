@@ -1,15 +1,19 @@
 //------------------
 @media (min-width: 481px) and (max-width: 992px) {
   //@media (min-width: 768px) {
+  /*
 
   .forkio-header {
     background: url("../../../dist/img/header-bg-768.png") ;
     background-position: center 20%;
   }
+  */
 
   //--
   .header {
     //padding: 0 15px;
+    background: url("../../../dist/img/header-bg-768.png") ;
+    background-position: center 20%;
 
     &__nav {
       //font-family: 'Montserrat', sans-serif;
@@ -151,14 +155,18 @@
 
 @media (min-width: 768px) {
 
+  /*
   .forkio-header {
     background: url("../../../dist/img/header-bg-1200.png");
     background-position: center;
   }
+  */
 
   //--
   .header {
     //padding: 0 15px;
+    background: url("../../../dist/img/header-bg-1200.png");
+    background-position: center;
 
     &__nav {
       //font-family: 'Montserrat', sans-serif;
@@ -305,14 +313,18 @@
 
 @media (min-width: 993px) and (max-width: 1199px) {
 
+  /*
 
   .forkio-header {
     background: url("../../../dist/img/header-bg-1200.png");
     background-position: center;
   }
+  */
 
   //--
   .header {
+    background: url("../../../dist/img/header-bg-1200.png");
+    background-position: center;
     //padding: 0 15px;
 
     &__nav {
@@ -467,15 +479,18 @@
 //------------
 
 @media (min-width: 1200px) {
+  /*
 
   .forkio-header {
     //background: url("../../../dist/img/header-bg-1200.png");
     //background-position: center;
     background-size: cover;
   }
+  */
 
   //--
   .header {
+    background-size: cover;
     //padding: 0 15px;
 
     &__nav {
