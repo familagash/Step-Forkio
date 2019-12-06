@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  .pricing {
+    &__header {
+      font-size: 28pt;
+    }
+
+    &__items {
+      flex-wrap: wrap;
+
+      &__content {
+        margin-right: 2rem;
+
+        &-scale {
+          width: 40%;
+          margin-right: 1.2rem;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+
+.pricing{
+  &__items{
+    &__content{
+      margin-right: 0;
+      margin-top: 14px;
+
+      &-scale{
+        width: 94%;
+        height: 560px;  
+        background: rgba(0, 0, 0, 0.2);
+        margin-right: 0;  
+      }
+    }
+  }
+}
+
+
+}

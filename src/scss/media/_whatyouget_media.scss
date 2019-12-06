@@ -1,0 +1,98 @@
+// *Screen resolution 768px
+@media screen and (min-width: 481px) and (max-width: 992px) {
+  .wyg {
+    &-bcg {
+      background-color: #f4f4f4;
+    }
+    &__wrap {
+      display: block;
+    }
+
+    &__features {
+      display: block;
+      padding-right: 28px;
+      width: 100%;
+
+      &__content {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    &__header {
+      font-family: AdobeInvisFont, Montserrat-Bold;
+      color: #8d81ac;
+      font-weight: bold;
+      text-align: center;
+      font-size: 46px;
+      padding-bottom: 35px;
+    }
+
+    &__bcg {
+      &__header {
+        display: none;
+      }
+    }
+  }
+}
+
+// *Screen resolution 320px-480px
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .wyg {
+    &__wrap {
+      overflow: hidden;
+      display: block;
+    }
+
+    &__features {
+      display: block;
+      padding-right: 28px;
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        &__img-1 {
+          padding-left: 58px;
+          padding-top: 30px;
+        }
+        &__img-2 {
+          padding-left: 55px;
+          padding-top: 30px;
+        }
+        &__img-3 {
+          padding-left: 75px;
+          padding-top: 30px;
+        }
+        &__img-4 {
+          padding-left: 75px;
+          padding-top: 30px;
+        }
+
+        &__header {
+          font-family: AdobeInvisFont, Montserrat-Bold;
+          color: #8d81ac;
+          font-weight: bold;
+          text-align: center;
+          font-size: 16px;
+          padding-bottom: 35px;
+          text-align: center;
+        }
+      }
+    }
+
+    &__header {
+      font-size: 34px;
+    }
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .wyg {
+    &-bcg {
+        background-color: #f4f4f4;
+      
+    }
+  }
+}
