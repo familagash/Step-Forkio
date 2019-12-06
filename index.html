@@ -5,26 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
-      integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Montserrat:400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="dist/css/style.min.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+          integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Montserrat:400,500,700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.min.css">
 
     <title>MR | IBA-STEP-Prj-FORKIO</title>
-  </head>
-  <body>
-    <!-- WORK WITH ONLY gulp dev COMMAND !!! -->
+</head>
+<body>
 
-    <section class="forkio-header"></section>
 
-    <!-- Revo section -->
+<section class="header">
+
+        <div class="header__nav container">
+            <div class="header__nav-row">
+
+            <a class="header__nav-logo">
+                <div class="header__logo-img"></div>
+                <div class="header__logo-name">ForkIO</div>
+            </a>
+
+            <div class="header__nav-button">Buy Now</div>
+            <div class="header__nav-hamburger">
+                <div class="header__hamburger-line line-first"></div>
+                <div class="header__hamburger-line line-second"></div>
+                <div class="header__hamburger-line line-third"></div>
+            </div>
+            </div>
+            <nav class="header__menu">
+                <a href="" class="header__menu-link">Overview</a>
+                <a href="" class="header__menu-link">About Fork</a>
+                <a href="" class="header__menu-link">Buying Options</a>
+                <a href="" class="header__menu-link">Support</a>
+                <div class="header__nav-button button-993">Buy Now</div>
+            </nav>
+
+        </div>
+
+        <div class="header__content container">
+            <h2 class="header__content-h">Fork App</h2>
+            <p class="header__content-text">A Real Gamechanger In The <span>World Of Web-Development</span></p>
+            <p class="header__content-version">v. 2.8 For Mac and Windows</p>
+            <div class="header__content-download">Download For Free Now</div>
+        </div>
+
+</section>
+
+ <!-- Revo section -->
     <section class="revo">
       <div class="container">
         <div class="revo__content">
@@ -151,9 +180,55 @@
       </div>
     </section>
 
-    <section class="forkio-about"></section>
+</section>
+<section class="about ">
+    <div class="container ">
+        <h2 class="about__header">
+            People Are Talking About Fork
+        </h2>
+        <div class="about__content ">
+            <div class="about__content-item item-first">
+                <img src="dist/img/about-1.png" alt="about-img-1" class="about__item-img">
+                <p class="about__item-text">Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id
+                    dignissim magna. Sed varius urna et pulvinar venenatis. </p>
+            </div>
+            <div class="about__content-item item-second">
+                <img src="dist/img/about-2.png" alt="about-img-2" class="about__item-img">
+                <p class="about__item-text">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus
+                    molestie neque ac, mollis eleifend nibh.</p>
+            </div>
+            <div class="about__content-item item-third">
+                <img src="dist/img/about-3.png" alt="about-img-3" class="about__item-img">
+                <p class="about__item-text">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus
+                    molestie neque ac, mollis eleifend nibh.</p>
+            </div>
 
-    <!-- pricing -->
+            <div class="about__content-item item-fourth">
+                <img src="dist/img/about-4.png" alt="about-img-3" class="about__item-img">
+                <p class="about__item-text">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus
+                    molestie neque ac, mollis eleifend nibh.</p>
+            </div>
+            <div class="about__content-item item-fifth">
+                <img src="dist/img/about-5.png" alt="about-img-3" class="about__item-img">
+                <p class="about__item-text">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus
+                    molestie neque ac, mollis eleifend nibh.</p>
+            </div>
+            <div class="about__content-item item-sixth">
+                <img src="dist/img/about-6.png" alt="about-img-3" class="about__item-img">
+                <p class="about__item-text">Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus
+                    molestie neque ac, mollis eleifend nibh.</p>
+            </div>
+        </div>
+
+        <div class="about__footer">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae
+            aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum
+            sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </div>
+        <div class="about-line"></div>
+    </div>
+</section> 
+  
+  <!-- pricing -->
     <section class="pricing">
       <!-- items -->
       <div class="container">
@@ -218,22 +293,17 @@
         </div>
     </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
-      integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
-      crossorigin="anonymous"
-    ></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
+        integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
+        crossorigin="anonymous"></script>
 
-    <script src="dist/js/script.min.js"></script>
-  </body>
+<script src="dist/js/script.min.js"></script>
+</body>
 </html>
+
