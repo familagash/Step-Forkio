@@ -1,5 +1,43 @@
-// // Screen resolution 768px
-// @media screen and (min-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .revo {
+    height: 500px;
+    &__content {
+      &-text {
+        padding-top: 50px;
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+
+      &-header {
+        font-family: "Montserrat-Bold";
+        padding-top: 64px;
+        font-size: 28px;
+        line-height: 1.4;
+      }
+
+      &-description {
+        padding: 50px 8px 34px;
+        font-size: 14px;
+      }
+    }
+
+    &__git-button-group {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      li {
+        margin-bottom: 15px;
+        height: 26px;
+        align-items: center;
+      }
+    }
+  }
+}
+
+
+// // Screen resolution 481px-992px
+// @media screen and (min-width: 481px) and (max-width: 991px) {
 //   .revo {
 //     height: 490px;
 
@@ -15,96 +53,3 @@
 //   }
 // }
 
-// Screen resolution 481px-992px
-@media screen and (min-width: 481px) and (max-width:991px) {
-  .revo {
-    height: 490px;
-
-    &__content {
-      &-text {
-        padding-top: 50px;
-      }
-
-      &-header {
-        padding-top: 94px;
-      }
-    }
-  }
-}
-
-// Screen resolution 320px
-// @media screen and (max-width: 320px) {
-//   .revo {
-//     &__content {
-//       &-text {
-//         padding-top: 50px;
-//         font-size: 14px;
-//       }
-
-//       &-header {
-//         font-family: 'Montserrat-Bold';
-//         padding-top: 64px;
-//         font-size: 28px;
-//         line-height: 1.4;
-//       }
-
-//       &-description{
-//         padding: 23px 8px 34px;
-//         font-size: 14px;
-        
-//       }
-//     }
-
-//     &__git-button-group{
-//       flex-direction: row;
-//       justify-content: center;
-//       align-items: center;
-//       flex-wrap: wrap;
-// li{
-//   margin-bottom: 15px;
-//   height: 26px;
-//   align-items: center;
-
-// }
-//     }
-//   }
-// }
-@media screen and (min-width: 320px) and (max-width:480px){
-  .revo { 
-    height: 444px;
-    &__content {
-      &-text {
-        padding-top: 50px;
-        font-size: 14px;
-        margin-bottom: 25px;
-      }
-
-      &-header {
-        font-family: 'Montserrat-Bold';
-        padding-top: 64px;
-        font-size: 28px;
-        line-height: 1.4;
-      }
-
-      &-description{
-        padding: 50px 8px 34px;
-        font-size: 14px;
-        margin
-        
-      }
-    }
-
-    &__git-button-group{
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-li{
-  margin-bottom: 15px;
-  height: 26px;
-  align-items: center;
-
-}
-    }
-  }
-}
