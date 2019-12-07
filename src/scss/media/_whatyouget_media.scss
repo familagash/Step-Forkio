@@ -1,52 +1,63 @@
-// *Screen resolution 768px
-@media screen and (min-width: 481px) and (max-width: 992px) {
-  .wyg {
-    &-bcg {
-      background-color: #f4f4f4;
-    }
-    &__wrap {
-      display: block;
-    }
+// // *Screen resolution 768px
+// @media screen and (min-width: 481px) and (max-width: 992px) {
+//   .wyg {
+//     // &-bcg {
+//     //   background-color: #f4f4f4;
+//     // }
+//     &__wrap {
+//       display: block;
+//     }
 
-    &__features {
-      display: block;
-      padding-right: 28px;
-      width: 100%;
+//     &__features {
+//       display: block;
+//       padding-right: 28px;
+//       width: 100%;
 
-      &__content {
-        display: flex;
-        flex-direction: row;
-      }
-    }
+//       &__content {
+//         display: flex;
+//         flex-direction: row;
+//       }
+//     }
 
-    &__header {
-      font-family: AdobeInvisFont, Montserrat-Bold;
-      color: #8d81ac;
-      font-weight: bold;
-      text-align: center;
-      font-size: 46px;
-      padding-bottom: 35px;
-    }
+//     &__header {
+//       font-family: AdobeInvisFont, Montserrat-Bold;
+//       color: #8d81ac;
+//       font-weight: bold;
+//       text-align: center;
+//       font-size: 46px;
+//       padding-bottom: 35px;
+//     }
 
-    &__bcg {
-      &__header {
-        display: none;
-      }
-    }
-  }
-}
+//     &__bcg {
+//       &__header {
+//         display: none;
+//       }
+//     }
+//   }
+// }
 
 // *Screen resolution 320px-480px
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .wyg {
     &__wrap {
-      overflow: hidden;
-      display: block;
+      // overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    &__header {
+      font-family: AdobeInvisFont, Montserrat-Bold;
+      color: #8d81ac;
+      font-weight: bold;
+      font-size: 46px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 25px;
     }
 
     &__features {
-      display: block;
+      flex-direction: column;
       padding-right: 28px;
+      width: 100%;
 
       &__content {
         display: flex;
@@ -85,14 +96,20 @@
     &__header {
       font-size: 34px;
     }
-  }
-}
-
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-  .wyg {
-    &-bcg {
-        background-color: #f4f4f4;
-      
+    &__bcg {
+      width: 100%;
+      &__header {
+        display: none;
+      }
     }
   }
 }
+
+// @media screen and (min-width: 993px) and (max-width: 1200px) {
+//   .wyg {
+//     &-bcg {
+//         background-color: #f4f4f4;
+
+//     }
+//   }
+// }
