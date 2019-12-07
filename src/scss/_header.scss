@@ -5,11 +5,15 @@
   background-position: center bottom;//
   position: relative;
 
+  &__wrap{
+    background-color: #27262a;
+  }
+
   &__nav{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     padding: 0 15px;
-    background-color: #27262a;
+    //background-color: #27262a;
     display: flex;
     justify-content: space-between;
     align-items: center;
