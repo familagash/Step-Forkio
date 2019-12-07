@@ -27,6 +27,7 @@
   flex-direction: column;
   width: 91%;
   margin: 0 auto;
+  left: 0;
   background: white;
   position: absolute;
   top: 106px;
@@ -51,12 +52,6 @@
     }
   }
 }
-
-//@mixin flex-ham{
-//  display: flex;
-//  flex-direction: column;
-//  width: 91%;
-//}
 
 @mixin font-family {
   font-family: AdobeInvisFont, Montserrat-Regular, Courier;
