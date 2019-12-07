@@ -4,6 +4,7 @@
   //padding: 0 15px;
   background: url("../../dist/img/header-bg-320.png");
   background-position: center bottom;//
+  position: relative;
 
   &__nav{
     font-family: 'Montserrat', sans-serif;
@@ -112,7 +113,7 @@
 
   &__content{
     font-family: 'Montserrat', sans-serif;
-    position: relative;
+    //position: relative;
     text-transform: uppercase;
     color: #8d81ac;
     padding: 43px 32px 424px 30px ;
