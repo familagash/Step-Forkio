@@ -1,7 +1,7 @@
 //------------------
 
 .header{
-  background: url("../../dist/img/header-bg-320.png");
+  background: url("../../dist/img/header/header-bg-320.png");
   background-position: center bottom;//
   position: relative;
 
@@ -49,15 +49,17 @@
   /**/
   &__logo{
     &-img{
-      background: url("../../dist/img/header-navbar-logo.png");
+      display: inline-block;/*t*/
+      background: url("../../dist/img/header/header-navbar-logo.png");
       width: 43px;
       height: 41px;
       &:hover{
-        background: url("../img/logo-hover.png");
+        background: url("../img/header/logo-hover.png");
         cursor: pointer;
       }
     }
     &-name{
+      color: #8d81ac;
       display: none;
       font-family: 'Lato', sans-serif;
       &:hover{
@@ -79,6 +81,7 @@
     background: #333333;
     padding-bottom: 10px;
     &-link{
+      text-decoration: none;/**/
       color: white;
       font-weight: normal;
       background-color: #333333;
