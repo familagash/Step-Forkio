@@ -5,9 +5,12 @@
   background-position: center bottom;//
   position: relative;
 
+
   &__wrap{
     background-color: #27262a;
   }
+
+
 
   &__nav{
     font-family: 'Montserrat', sans-serif;
@@ -17,6 +20,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    &-logo:hover {
+      cursor: pointer;
+      .header__logo {
+        &-img {
+          background: url("../../dist/img/header/logo-hover.png");
+        }
+        &-name {
+          color: white;
+        }
+      }
+    }
 
     &-row{
       display: flex;
@@ -54,8 +69,8 @@
       width: 43px;
       height: 41px;
       &:hover{
-        background: url("../img/header/logo-hover.png");
-        cursor: pointer;
+        //background: url("../img/header/logo-hover.png");
+        //cursor: pointer;
       }
     }
     &-name{
@@ -63,8 +78,8 @@
       display: none;
       font-family: 'Lato', sans-serif;
       &:hover{
-        color: white;
-        cursor: pointer;
+        //color: white;
+        //cursor: pointer;
       }
     }
   }
@@ -140,6 +155,7 @@
     &-download{
       font-weight: bold;
       text-transform: none;
+      border: 1px solid transparent;
       border-radius: 30px;
       background-color: #8d81ac;
       color: white;
@@ -150,12 +166,16 @@
       bottom: -22px;
       &:hover{
         background: white;
+        border: 1px solid #8d81ac;
         cursor: pointer;
         color: #8d81ac;
       }
     }
   }
 
+  .container{
+    min-width: unset;
+  }
 
 }
 
@@ -173,3 +193,7 @@
 
 
 //-------------------
+
+//.header__nav-logo:hover {
+//  color: white;
+//}
