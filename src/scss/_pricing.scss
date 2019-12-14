@@ -2,13 +2,14 @@
   // height: 847px;
   background: url("/src/img/pricing/pricing-bcg.png") no-repeat center
     center/cover;
+    margin-top: -152px;
 
   &__header {
     @include font-family;
     color: rgba(255, 255, 255, 255);
     font-size: 35.21437pt;
-    padding-top: 73px;
-    padding-bottom: 122px;
+    margin-top: 210px;
+    margin-bottom: 122px;
     font-weight: 700;
   }
   &__items {
@@ -75,19 +76,17 @@
             font-size: 13px;
           }
 
-          &__purchase-btn {
+          .purchase-btn {
             display: inline-block;
-            width: 168px;
-            height: 45px;
-            padding: 0.6rem 2.5rem;
+            width: 152px;
+            padding: 1.1rem 2.5rem;
             color: #ffffff;
             text-decoration: none;
-            background-color: #786b79;
+            background-color: #5d5160;
             text-transform: uppercase;
-            border-radius: 22px;
-            padding-top:14px ;
+            border-radius: 30px;
 
-            &:hover{
+            &:hover {
               transition: 0.4s ease-in;
               background: rgba(255, 255, 255, 0.4);
             }
