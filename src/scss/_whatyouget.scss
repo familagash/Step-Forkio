@@ -2,6 +2,9 @@
   &-bcg{
     background-color: #f4f4f4;
   }
+  &__header{
+    display: none;
+  }
 
   &__wrap {
     display: flex;
@@ -14,6 +17,8 @@
     flex-direction: column;
     margin: 0 15px;
     width: 50%;
+
+   
 
     &__content {
       display: flex;
